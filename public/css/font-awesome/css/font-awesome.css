@@ -592,7 +592,7 @@
 .fa-sign-out:before {
   content: "\f08b";
 }
-.fa-linkedin-square:before {
+.fa-bug-square:before {
   content: "\f08c";
 }
 .fa-thumb-tack:before {
@@ -801,8 +801,8 @@
 .fa-envelope:before {
   content: "\f0e0";
 }
-.fa-linkedin:before {
-  content: "\f0e1";
+.fa-bug:before {
+  content: "\f188";
 }
 .fa-rotate-left:before,
 .fa-undo:before {

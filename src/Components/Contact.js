@@ -36,7 +36,7 @@ class Contact extends Component {
                 <fieldset>
                   <div>
                     <label htmlFor="contactName">
-                      Name <span className="required">*</span>
+                      Nombre <span className="required">*</span>
                     </label>
                     <input
                       type="text"
@@ -50,7 +50,7 @@ class Contact extends Component {
 
                   <div>
                     <label htmlFor="contactEmail">
-                      Email <span className="required">*</span>
+                      Correo <span className="required">*</span>
                     </label>
                     <input
                       type="text"
@@ -63,7 +63,7 @@ class Contact extends Component {
                   </div>
 
                   <div>
-                    <label htmlFor="contactSubject">Subject</label>
+                    <label htmlFor="contactSubject">Asunto</label>
                     <input
                       type="text"
                       defaultValue=""
@@ -76,7 +76,7 @@ class Contact extends Component {
 
                   <div>
                     <label htmlFor="contactMessage">
-                      Message <span className="required">*</span>
+                      Mensaje <span className="required">*</span>
                     </label>
                     <textarea
                       cols="50"
@@ -106,7 +106,7 @@ class Contact extends Component {
           <Slide right duration={1000}>
             <aside className="four columns footer-widgets">
               <div className="widget widget_contact">
-                <h4>Address and Phone</h4>
+                <h4>Contáctanos</h4>
                 <p className="address">
                   {name}
                   <br />
@@ -118,10 +118,10 @@ class Contact extends Component {
               </div>
 
               <div className="widget widget_tweets">
-                <h4 className="widget-title">Latest Tweets</h4>
+                {/*<h4 className="widget-title">Latest Tweets</h4>
                 <ul id="twitter">
                   <li>
-                    <span>
+                     <span>
                       This is Photoshop's version of Lorem Ipsum. Proin gravida
                       nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
                       quis bibendum auctor, nisi elit consequat ipsum
@@ -140,10 +140,10 @@ class Contact extends Component {
                       <a href="./">http://t.co/CGIrdxIlI3</a>
                     </span>
                     <b>
-                      <a href="./">3 Days Ago</a>
+                      <a href="./">3 Days Ago</a> 
                     </b>
                   </li>
-                </ul>
+                </ul>*/}
               </div>
             </aside>
           </Slide>

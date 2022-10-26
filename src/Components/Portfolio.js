@@ -2,11 +2,13 @@ import React, { Component } from "react";
 import Zmage from "react-zmage";
 import Fade from "react-reveal";
 
+
 let id = 0;
 class Portfolio extends Component {
   render() {
     if (!this.props.data) return null;
-
+    const resumeDownload = this.props.data.resumedownload;
+    const informacion = this.props.data.informacion;
     const projects = this.props.data.projects.map(function (projects) {
       let projectImage = "images/portfolio/" + projects.image;
 
@@ -25,7 +27,7 @@ class Portfolio extends Component {
         <Fade left duration={1000} distance="40px">
           <div className="row">
             <div className="twelve columns collapsed">
-              <h1>Check Out Some of My Works.</h1>
+              <h1>Nuestros servicios.</h1>
 
               <div
                 id="portfolio-wrapper"
@@ -33,6 +35,14 @@ class Portfolio extends Component {
               >
                 {projects}
               </div>
+              <div className="columns-download">
+              <h1>{informacion}</h1>  
+              <p>
+                  <a href={resumeDownload} rel="noreferrer" target="_blank" className="button">
+                  <i className="fa fa-download"></i> Download Resume
+                  </a>
+              </p>
+              </div>   
             </div>
           </div>
         </Fade>

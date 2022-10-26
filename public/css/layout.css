@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   
+
    text-align: center;
    overflow: hidden;
 }
@@ -174,7 +174,38 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #fe6928; }
+ul#nav li.current a { color: #8c28fe; }
+
+nav ul ul{
+   position: absolute;
+   top: 70px;
+   opacity: 0;
+   visibility: hidden;
+   transition: top .3s;
+}
+
+nav ul ul li a:hover{
+   color: #333;
+   box-shadow: none;
+}
+
+nav ul li:hover > ul{
+   top:50px;
+   opacity: 1;
+   visibility: visible;
+}
+
+
+nav ul ul li{
+   position: relative;
+   margin: 0;
+   width: 200px;
+   float: none;
+   display: list-item;
+   border-bottom: 3px solid blueviolet;
+   background-color: #333;
+}
+
 
 
 /* ------------------------------------------------------------------ */
@@ -183,8 +214,8 @@ ul#nav li.current a { color: #fe6928; }
 
 #about {
    background: #000524;
-   padding-top: 96px;
-   padding-bottom: 66px;
+   padding-top: 196px;
+   padding-bottom: 196px;
    overflow: hidden;
 }
 
@@ -192,18 +223,27 @@ ul#nav li.current a { color: #fe6928; }
 #about a:hover, #about a:focus { color: #0762f9; }
 
 #about h2 {
-   font: 22px/30px 'opensans-bold', sans-serif;
+   padding-left: 50px;
+   font: 44px/60px 'opensans-bold', sans-serif;
    color: #fff;
    margin-bottom: 12px;
 }
 #about p {
+   padding-left: 50px;
    line-height: 30px;
+   font-size: 20px;
    color: #ccc;
 }
+
+#about p strong {
+   font-size: 20px;
+}
+
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 220px;
+   height: 220px;
+
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -427,6 +467,11 @@ ul#nav li.current a { color: #fe6928; }
 
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
+#portfolio .columns-download .button{     
+   width: 100%;
+   place-items: center;
+   text-align: center;
+ }
 .portfolio-item .item-wrap {
    background: #fff;
    overflow: hidden;
@@ -511,6 +556,7 @@ ul#nav li.current a { color: #fe6928; }
 	-moz-opacity: 1;
 	filter:alpha(opacity=100);
 }
+
 
 /* popup modal */
 .popup-modal {
@@ -955,7 +1001,7 @@ footer .copyright li:before {
     content: "\2022";
     padding-left: 10px;
     padding-right: 10px;
-    color: #095153;
+    color: #1bf7ff;
 }
 footer .copyright  li:first-child:before {
     display: none;
@@ -1003,7 +1049,7 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #0F9095; }
+#go-top a:hover { background-color: #ecfeff; }
 
 
 .social .btn:first-child{
@@ -1022,3 +1068,24 @@ footer .social-links li:first-child { margin-left: 0; }
 .github-btn{
    background-color: #34495e !important;
 }
+.inner{
+   width: 100%;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -ms-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+   
+}
+.inner .logo{
+margin: 30px
+
+}
+
+
