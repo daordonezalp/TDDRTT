@@ -7,11 +7,11 @@
     "bio":" fue creado con el fin de resolver diferentes problemas de pequeñas, medianas y grandes empresas de cualquier ámbito de la industria del día de hoy, con ello estar a la vanguardia en tecnología y una continua actualización de los sistemas tecnológicos tanto como internos y externos de las empresas.",
     "contactmessage":"En caso de dudas, sugerencias, reclamos o todo aquello relacionado con la empresa Kronos, déjanos tus datos en el siguiente registro.",
     "email": "youremailhere@gmail.com",
-    "phone": "+57 3194944452",
+    "phone": "+57 3194265733",
     "github":"https://github.com/admskronoscorp",
     "project":"https://github.com/nordicgiant2/react-nice-resume",
     "address":{
-      "street":"N/A",
+      "street":"Calle 44a#73a 29 sur",
       "city":"Bogotá D.C",
       "state":"Bogotá D.C",
       "zip": ""
@@ -22,7 +22,7 @@
       {
         "name":"facebook",
         "url":"https://mail.google.com/mail/?view=cm&fs=1&to=servicioalcliente@kronoscorp.net",
-        "className":"fa fa-facebook"
+        "className":"fa fa-envelope"
       },
       {
         "name":"twitter",
@@ -32,7 +32,7 @@
       {
         "name":"linkedin",
         "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
-        "className":"fa fa-bug"
+        "className":"fa fa-linkedin"
       },
       {
         "name":"instagram",
@@ -41,7 +41,7 @@
       },
       {
         "name":"github",
-        "url":"https://twitter.com/kronos_corp7",
+        "url":"https://github.com/admskronoscorp",
         "className":"fa fa-github"
       }
     ]

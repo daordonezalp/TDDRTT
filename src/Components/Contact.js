@@ -23,14 +23,14 @@ class Contact extends Component {
               </h1>
             </div>
 
-            <div className="ten columns">
+            {/* <div className="ten columns">
               <p className="lead">{message}</p>
-            </div>
+            </div> */}
           </div>
         </Fade>
 
         <div className="row">
-          <Slide left duration={1000}>
+          {/* <Slide left duration={1000}>
             <div className="eight columns">
               <form action="" method="post" id="contactForm" name="contactForm">
                 <fieldset>
@@ -101,7 +101,7 @@ class Contact extends Component {
                 <br />
               </div>
             </div>
-          </Slide>
+          </Slide> */}
 
           <Slide right duration={1000}>
             <aside className="four columns footer-widgets">
@@ -113,7 +113,7 @@ class Contact extends Component {
                   {street} <br />
                   {city}, {state} {zip}
                   <br />
-                  <span>{phone}</span>
+                  <span><a href="https://api.whatsapp.com/send?phone=573194265733">{phone}</a></span>
                 </p>
               </div>
 

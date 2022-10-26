@@ -840,9 +840,12 @@ call-to-action .button {
    padding-bottom: 102px;
    color: #636363;
 }
+
+
+
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #0762f9; }
+#contact a, #contact a:visited  { color: #a1a1a1; }
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
@@ -1001,7 +1004,7 @@ footer .copyright li:before {
     content: "\2022";
     padding-left: 10px;
     padding-right: 10px;
-    color: #1bf7ff;
+    color: #ffffff;
 }
 footer .copyright  li:first-child:before {
     display: none;

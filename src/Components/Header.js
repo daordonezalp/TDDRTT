@@ -57,7 +57,7 @@ class Header extends Component {
               </a>
             </li>
             
-            <li>
+            {/* <li>
               <a href="#">Soporte<span class="fa fa-angle-down"></span></a>
               <ul>
                 <li><a href="#">Pilar diseño</a></li>
@@ -65,7 +65,7 @@ class Header extends Component {
                 <li><a href="#">Pilar marketing</a></li>
                 <li><a href="#">Pilar desarrollo</a></li>
               </ul>  
-            </li>  
+            </li>   */}
 
           </ul>
         </nav>
