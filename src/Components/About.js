@@ -30,7 +30,7 @@ class About extends Component {
             <div className="nine columns main-col">
               <h2>Quienes somos</h2>
 
-              <p><strong >Kronos Corporation</strong>,{bio}</p>
+              <p><strong >Pruebas TDD y rastrea tu transporte</strong>,{bio}</p>
               <div className="row">
                 <div className="columns contact-details">
                   {/* <h2>Contact Details</h2>

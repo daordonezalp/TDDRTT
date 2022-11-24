@@ -27,7 +27,7 @@ class Portfolio extends Component {
         <Fade left duration={1000} distance="40px">
           <div className="row">
             <div className="twelve columns collapsed">
-              <h1>Nuestros servicios.</h1>
+              <h1>Nosotros</h1>
 
               <div
                 id="portfolio-wrapper"
@@ -36,11 +36,11 @@ class Portfolio extends Component {
                 {projects}
               </div>
               <div className="columns-download">
-              <h1>{informacion}</h1>  
+              {/* <h1>{informacion}</h1>   */}
               <p>
-                  <a href={resumeDownload} rel="noreferrer" target="_blank" className="button">
+                  {/* <a href={resumeDownload} rel="noreferrer" target="_blank" className="button">
                   <i className="fa fa-download"></i> Download Resume
-                  </a>
+                  </a> */}
               </p>
               </div>   
             </div>

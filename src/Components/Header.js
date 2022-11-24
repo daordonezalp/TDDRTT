@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ParticlesBg from "particles-bg";
 import Fade from "react-reveal";
+import Logotdd from "./logos/tdd"
 
 
 class Header extends Component {
@@ -8,7 +9,7 @@ class Header extends Component {
     if (!this.props.data) return null;
 
 
-    const logoheader = "images/" + this.props.data.image1;
+    // const logoheader = "images/" + this.props.data.image1;
     const description = this.props.data.description;
 
     
@@ -37,11 +38,11 @@ class Header extends Component {
               </a>
             </li>
 
-            <li>
+            {/* <li>
               <a className="smoothscroll" href="#portfolio">
                 Nuestros servicios
               </a>
-            </li>
+            </li> */}
             
             <li>
               <a className="smoothscroll" href="#resume">
@@ -56,7 +57,7 @@ class Header extends Component {
                 Contactos
               </a>
             </li>
-            
+          
             {/* <li>
               <a href="#">Soporte<span class="fa fa-angle-down"></span></a>
               <ul>
@@ -73,11 +74,17 @@ class Header extends Component {
         <div className="row banner">
           <div className="banner-text">
             <Fade bottom>
-              <img  
+              {/* <img  
                   src={logoheader}
                   alt="Logo transparente"
                   
-              ></img>  {/*Adicion para poner el logo en el header// Linea 6*/}
+              ></img>  Adicion para poner el logo en el header// Linea 6 */}
+               <div class="inner">  
+               <div class="kronos"><Logotdd/></div>
+               
+               </div>
+            
+
               {/* <h1 className="responsive-headline">{name}</h1> */}
             </Fade>
             <Fade bottom duration={1200}>

@@ -11,7 +11,7 @@ class Contact extends Component {
     const state = this.props.data.address.state;
     const zip = this.props.data.address.zip;
     const phone = this.props.data.phone;
-    const message = this.props.data.contactmessage;
+    // const message = this.props.data.contactmessage;
 
     return (
       <section id="contact">
@@ -111,13 +111,14 @@ class Contact extends Component {
                   {name}
                   <br />
                   {street} <br />
-                  {city}, {state} {zip}
+                  {city} {state} {zip}
                   <br />
                   <span><a href="https://api.whatsapp.com/send?phone=573194265733">{phone}</a></span>
                 </p>
               </div>
 
               <div className="widget widget_tweets">
+                
                 {/*<h4 className="widget-title">Latest Tweets</h4>
                 <ul id="twitter">
                   <li>
