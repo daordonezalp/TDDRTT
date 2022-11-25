@@ -8,6 +8,7 @@ frontend:
       commands:
         - npm run build
         - npm install --force
+        - npm install --legacy-peer-deps
   artifacts:
     baseDirectory: build
     files:
