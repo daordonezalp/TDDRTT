@@ -11,7 +11,10 @@ class Header extends Component {
 
     // const logoheader = "images/" + this.props.data.image1;
     const description = this.props.data.description;
-
+    const daniel = this.props.data.description;
+    const miguel = this.props.data.description;
+    const santigo = this.props.data.description;
+    const juan = this.props.data.description;
     
     return (
       <header id="home">
@@ -92,14 +95,21 @@ class Header extends Component {
             </Fade>
             <hr />
             <Fade bottom duration={2000}>
-              {/* <ul className="social">
-                <a href={project} className="button btn project-btn">
-                  <i className="fa fa-book"></i>Project
+              <ul className="social">
+               
+                <a href={santigo} className="button btn project-btn">
+                  <i className="fa fa-book"></i>Daniel Ordoñez
+                </a>                
+                <a href={juan} className="button btn project-btn">
+                  <i className="fa fa-book"></i>Juan Ordoñez
                 </a>
-                <a href={github} className="button btn github-btn">
-                  <i className="fa fa-github"></i>Github
+                <a href={santigo} className="button btn project-btn">
+                  <i className="fa fa-book"></i>santigo Mendoza
                 </a>
-              </ul> */}
+                <a href={miguel} className="button btn project-btn">
+                  <i className="fa fa-book"></i>Miguel Pinzon
+                </a>
+              </ul> 
             </Fade>
           </div>
         </div>
