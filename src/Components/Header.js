@@ -100,7 +100,7 @@ class Header extends Component {
                 <a href="https://main.d1as6rhcbvybw2.amplifyapp.com/" className="button btn project-btn" >
                   <i className="fa fa-book"></i>Daniel Ordoñez
                 </a>                
-                <a href={juan} className="button btn project-btn">
+                <a href="https://github.com/Jsordonez28/Mysql.git" className="button btn project-btn">
                   <i className="fa fa-book"></i>Juan Ordoñez
                 </a>
                 <a href="https://github.com/santiagomendoza514/CRUD.git" className="button btn project-btn">
