@@ -97,7 +97,7 @@ class Header extends Component {
             <Fade bottom duration={2000}>
               <ul className="social">
                
-                <a href={santigo} className="button btn project-btn">
+                <a href="https://main.d1as6rhcbvybw2.amplifyapp.com/" className="button btn project-btn" >
                   <i className="fa fa-book"></i>Daniel Ordoñez
                 </a>                
                 <a href={juan} className="button btn project-btn">
