@@ -103,10 +103,10 @@ class Header extends Component {
                 <a href={juan} className="button btn project-btn">
                   <i className="fa fa-book"></i>Juan Ordoñez
                 </a>
-                <a href={santigo} className="button btn project-btn">
+                <a href="https://github.com/santiagomendoza514/CRUD.git" className="button btn project-btn">
                   <i className="fa fa-book"></i>santigo Mendoza
                 </a>
-                <a href={miguel} className="button btn project-btn">
+                <a href="https://github.com/miguelocodefu/crudusers-miguelpinzon.git" className="button btn project-btn">
                   <i className="fa fa-book"></i>Miguel Pinzon
                 </a>
               </ul> 
